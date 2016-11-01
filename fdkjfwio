@@ -1,0 +1,30 @@
+
+<!doctype html>
+<head>
+  <meta charset='UTF-8'>
+  <title>fb1</title>
+  <style type="text/css">
+  html,body {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    border: 0;
+    height: 100%;
+  }
+  </style>
+</head>
+<body>
+<!-- Page for test only. Don't use this page. -->
+  <div data-href="https://www.facebook.com/ayeonga" data-layout="button" data-size="large" data-show-faces="true" class="fb-follow fb_iframe_widget" fb-xfbml-state="rendered"></div>
+  <div id="fb-root"></div>
+  <script type="text/javascript">
+  !function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = "//connect.facebook.net/ko_KR/sdk.js#xfbml=1&version=v2.8";
+    fjs.parentNode.insertBefore(js, fjs);
+  }(document, 'script', 'facebook-jssdk')
+  </script>
+</body>
+</html>
